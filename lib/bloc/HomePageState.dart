@@ -16,7 +16,7 @@ class HomePageStateLoading extends HomePageState {
 class HomePageStateSucesso extends HomePageState {
   final List<Livros> livros;
   HomePageStateSucesso({
-    @required this.livros
+    @required this.livros 
   }); 
 
   @override

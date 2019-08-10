@@ -9,9 +9,9 @@ class MinhaApp extends StatelessWidget {
   @override 
   Widget build(BuildContext ){
     return MaterialApp(
-      title: "Skoob-doo",
+      title: "AppTeste",
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.blue,
       ),
       home: HomePage(),
     );

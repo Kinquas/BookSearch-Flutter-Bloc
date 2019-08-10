@@ -18,6 +18,7 @@ class repositorioFake {
       var json = converter.jsonDecode(body);
       var data = Livros.fromJson(json);
       var livros = data.items;
+
       return HomePageStateSucesso(
         livros: livros);
     }
